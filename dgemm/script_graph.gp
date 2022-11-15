@@ -25,5 +25,5 @@ newhistogram "O2", \
 newhistogram "O3", \
 'dgemm_clang_120X80_O3.dat.dat' using 7:xtic(1) ti col, '' u 8 ti col, '' u 9 ti col, '' u 10 ti col, '' u 11 ti col , \
 newhistogram "O4", \
-'dgemm_clang_120X80_O1.dat' using 7:xtic(1) ti col, '' u 8 ti col, '' u 9 ti col, '' u 10 ti col, '' u 11 ti col, \
+'dgemm_clang_120X80_Ofast.dat' using 7:xtic(1) ti col, '' u 8 ti col, '' u 9 ti col, '' u 10 ti col, '' u 11 ti col, \
 newhistogram "O5",
