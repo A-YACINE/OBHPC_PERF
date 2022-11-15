@@ -1,15 +1,15 @@
 // CACHE L1
 
-coherency_line_size 		= 64
-id 							= 0
-level 						= 1
-number_of_sets 				= 64
-physical_line_partition 	= 1
-shared_cpu_list 			= 0,4
-shared_cpu_map 				= 11
-size 						= 32K
-type 						= Data
-uevent 						= 8
+coherency_line_size = 64
+id = 0
+level = 1
+number_of_sets = 64
+physical_line_partition = 1
+shared_cpu_list = 0,4
+shared_cpu_map = 11
+size = 32K
+type = Data
+uevent = 8
 
 
 //CACHE L2
