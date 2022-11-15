@@ -1,0 +1,42 @@
+// CACHE L1
+
+coherency_line_size 		= 64
+id 							= 0
+level 						= 1
+number_of_sets 				= 64
+physical_line_partition 	= 1
+shared_cpu_list 			= 0,4
+shared_cpu_map 				= 11
+size 						= 32K
+type 						= Data
+uevent 						= 8
+
+
+//CACHE L2
+
+coherency_line_size = 64
+0
+2
+1024
+1
+0,4
+11
+256K
+Unified
+4
+
+
+//CACHE L3
+
+64
+0
+3
+8192
+1
+0-7
+ff
+6144K
+Unified
+12
+
+
