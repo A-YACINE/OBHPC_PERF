@@ -2,7 +2,7 @@ set style data histogram
 set style histogram clustered
 
 #Titre
-set title "Histogramme comparant les versions selon les flags avec le compilateur clang"
+set title "Histogramme comparant les versions selon les flags avec le compilateur clang "
 
 #Titre axe 
 set xlabel "Differentes versions dotprod"
